@@ -506,24 +506,41 @@ h1, h2, h3 {
     }
 
     .showcase {
-        padding: 4rem 2rem;
+        padding: 2rem 0 2rem 0.75rem;
+    }
+
+    .showcase-header {
+        padding-right: 0.75rem;
     }
 
     .showcase-content {
-        flex-direction: column;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .showcase-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .showcase-card {
+        flex: 0 0 85vw;
+        scroll-snap-align: start;
+    }
+
+    .showcase-card-image {
+        height: 300px;
     }
 
     .left-pills {
         display: none;
     }
 
-    .showcase-pills {
-        justify-content: center;
-    }
-
-    .pill {
-        height: 200px;
-        max-width: 60px;
+    .showcase-pills-wrapper {
+        display: none;
     }
 
     .gallery-section {
