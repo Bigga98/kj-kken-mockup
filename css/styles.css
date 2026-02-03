@@ -217,6 +217,10 @@ h1, h2, h3 {
     padding: 1.5rem;
 }
 
+.showcase-card.mobile-only {
+    display: none;
+}
+
 .showcase-card-image {
     width: 100%;
     height: 500px;
@@ -529,6 +533,10 @@ h1, h2, h3 {
     .showcase-card {
         flex: 0 0 85vw;
         scroll-snap-align: start;
+    }
+
+    .showcase-card.mobile-only {
+        display: block;
     }
 
     .showcase-card-image {
