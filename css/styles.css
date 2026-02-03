@@ -435,18 +435,18 @@ h1, h2, h3 {
     .hero-social-proof {
         order: 1;
         margin-top: 0;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
     }
 
     .hero-subtitle {
         order: 2;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
     }
 
     .hero-title {
         order: 3;
         font-size: 2.8rem;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.5rem;
     }
 
     .hero-cta {
