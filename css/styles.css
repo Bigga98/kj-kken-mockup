@@ -471,6 +471,14 @@ h1, h2, h3 {
         display: none;
     }
 
+    .nav-container {
+        padding: 0 1rem;
+    }
+
+    .nav-cta {
+        border-radius: 3px;
+    }
+
     .showcase {
         padding: 4rem 2rem;
     }
