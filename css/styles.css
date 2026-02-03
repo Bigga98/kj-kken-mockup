@@ -427,7 +427,7 @@ h1, h2, h3 {
     }
 
     .hero-content {
-        padding: 1.5rem 2rem 2rem;
+        padding: 1.5rem 1.25rem 2rem 0.75rem;
         order: 2;
         display: flex;
         flex-direction: column;
@@ -481,8 +481,8 @@ h1, h2, h3 {
         height: 50vh;
         order: 1;
         transform: none;
-        margin: 0 -2rem;
-        width: calc(100% + 4rem);
+        margin: 0;
+        width: 100%;
     }
 
     .hero-image img {
@@ -494,7 +494,7 @@ h1, h2, h3 {
     }
 
     .nav-container {
-        padding: 0 1rem;
+        padding: 0 0.75rem;
     }
 
     .nav-cta {
