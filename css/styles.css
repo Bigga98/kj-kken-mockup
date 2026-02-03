@@ -473,7 +473,7 @@ h1, h2, h3 {
     /* CTA - handling på H1, interiør ikke software */
     .hero-cta {
         order: 4;
-        background-color: #3d3632;
+        background-color: #1a1a1a;
         color: #f3eee7;
         padding: 0.65rem 2rem;
         font-size: 0.85rem;
