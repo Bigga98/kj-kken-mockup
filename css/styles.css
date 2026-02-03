@@ -427,32 +427,54 @@ h1, h2, h3 {
     }
 
     .hero-content {
-        padding: 2rem;
+        padding: 1.5rem 2rem 2rem;
         order: 2;
         display: flex;
         flex-direction: column;
     }
 
+    /* Trust signal - dokumentasjon, ikke markedsføring */
     .hero-social-proof {
         order: 1;
         margin-top: 0;
-        margin-bottom: 0.25rem;
+        margin-bottom: 1.5rem;
+        font-size: 0.8rem;
+        color: #737373;
+        font-weight: 400;
+        letter-spacing: 0;
+        text-transform: none;
     }
 
+    /* Eyebrow/kategori - luksusmagasin-etikett */
     .hero-subtitle {
         order: 2;
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        color: #8a8a8a;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
     }
 
+    /* H1 - heroens anker, 70-80% visuell vekt */
     .hero-title {
         order: 3;
-        font-size: 2.8rem;
-        margin-bottom: 0.5rem;
+        font-size: 2.6rem;
+        line-height: 1.05;
+        margin-top: 0;
+        margin-bottom: 1.25rem;
+        color: #1a1a1a;
+        font-weight: 300;
     }
 
+    /* CTA - handling på H1, interiør ikke software */
     .hero-cta {
         order: 4;
-        border-radius: 3px;
+        background-color: #3d3632;
+        color: #f3eee7;
+        padding: 0.65rem 2rem;
+        font-size: 0.85rem;
+        border-radius: 4px;
+        letter-spacing: 0.03em;
     }
 
     .hero-image {
