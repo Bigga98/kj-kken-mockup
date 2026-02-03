@@ -446,10 +446,13 @@ h1, h2, h3 {
     .hero-image {
         height: 50vh;
         order: 1;
+        transform: none;
+        margin: 0 -2rem;
+        width: calc(100% + 4rem);
     }
 
     .hero-image img {
-        border-radius: 0 0 3px 3px;
+        border-radius: 0;
     }
 
     .nav-links {
