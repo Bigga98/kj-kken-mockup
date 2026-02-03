@@ -132,6 +132,13 @@ h1, h2, h3 {
     background-color: #383838;
 }
 
+.hero-social-proof {
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #383838;
+    letter-spacing: 0.05em;
+}
+
 .hero-image {
     height: calc(100vh - 92px);
     overflow: hidden;
@@ -423,8 +430,17 @@ h1, h2, h3 {
         order: 2;
     }
 
+    .hero-subtitle {
+        margin-bottom: 0.75rem;
+    }
+
     .hero-title {
         font-size: 2.8rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-social-proof {
+        margin-top: 1rem;
     }
 
     .hero-image {
